@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+// responsywnosc niedokonczona
+
 export const Container = styled.div`
   margin: 0;
   width: 100%;

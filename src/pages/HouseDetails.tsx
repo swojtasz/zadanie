@@ -28,7 +28,6 @@ export const HouseDetails = () => {
     url: `${process.env.REACT_APP_URL}/houses/${params.houseId}`,
   });
 
-  const [deleteError, setDeleteError] = useState(false);
   const navigate = useNavigate();
 
   const deleteHouse = () => {
