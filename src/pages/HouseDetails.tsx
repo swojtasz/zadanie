@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { useState } from 'react';
 import { useNavigate, useParams } from 'react-router';
 import styled from 'styled-components';
 import { useFetchData } from '../utils/useFetchData';
